@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "starcraftnormal";
+  src: url("./Starcraft_Font/starcraft_normal-webfont.woff2") format("woff2"),
+    url("./Starcraft_Font/starcraft_normal-webfont.woff") format("woff"),
+    url("./Starcraft_Font/starcraft_normal.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
