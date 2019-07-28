@@ -1,0 +1,17 @@
+.carbot-squad-image {
+  display: block;
+  width: 80vw;
+  margin: 0 auto;
+}
+.hero {
+  margin-top: 40px;
+}
+
+.hero-squad-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: teal;
+  font-size: 5em;
+}

@@ -1,0 +1,27 @@
+.nav-bar {
+  align-items: center; /* vertical align */
+  background: lemonchiffon;
+  display: flex;
+  justify-content: center; /* horizontal align */
+  margin: 0;
+  width: 100vw;
+}
+
+.nav-bar-list {
+  display: flex;
+  list-style: none;
+  margin: 0; /* remove margin from ul */
+  padding: 0; /* remove padding from ul */
+}
+
+.nav-bar-logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.nav-bar-items {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
