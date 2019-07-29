@@ -4,11 +4,13 @@
   display: flex;
   justify-content: center; /* horizontal align */
   margin: 0;
-  width: 100vw;
+  min-width: 100vw;
+  width: 100%;
 }
 
 .nav-bar-list {
   display: flex;
+  width: 100%;
   list-style: none;
   margin: 0; /* remove margin from ul */
   padding: 0; /* remove padding from ul */
@@ -21,7 +23,8 @@
 }
 
 .nav-bar-items {
-  padding: 20px;
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
