@@ -26,3 +26,21 @@
   height: calc(100vh - 6px);
   width: calc(100vw - 6px);
 }
+
+.hero-header {
+  margin: 30vh 12vw;
+}
+
+.hero-header-name {
+  background: -webkit-linear-gradient(#fff, #00aeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-size: 6em;
+}
+
+.hero-header-slogan {
+  color: #fff;
+  margin-left: 26%;
+  font-size: 2em;
+}
