@@ -1,7 +1,6 @@
-.test {
-  width: calc(100vw - 6px);
+.hero {
   height: calc(100vh - 6px);
-  border-style: solid;
+  width: calc(100vw - 6px);
   border: 3px solid transparent;
   -moz-border-image: -moz-linear-gradient(
     top,
