@@ -1,3 +1,5 @@
+@import "./VARIABLES.scss";
+
 .hero {
   background: url("../Media/Backgrounds/filler_computer.jpg") no-repeat center
     center fixed;
@@ -6,19 +8,19 @@
   border-style: solid;
   -moz-border-image: -moz-linear-gradient(
     top,
-    #00aeff 0%,
+    $starcraft-blue 0%,
     #613f75 50%,
     #ef798a 100%
   );
   -webkit-border-image: -webkit-linear-gradient(
     top,
-    #00aeff 0%,
+    $starcraft-blue 0%,
     #613f75 50%,
     #ef798a 100%
   );
   border-image: linear-gradient(
     to bottom,
-    #00aeff 0%,
+    $starcraft-blue 0%,
     #613f75 50%,
     #ef798a 100%
   );
@@ -32,7 +34,7 @@
 }
 
 .hero-header-name {
-  background: -webkit-linear-gradient(#fff, #00aeff);
+  background: -webkit-linear-gradient($starcraft-blue, #613f75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
@@ -43,4 +45,11 @@
   color: #fff;
   margin-left: 26%;
   font-size: 2em;
+}
+
+.hero-header-info {
+  background: -webkit-linear-gradient(#613f75, #613f75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -40px;
 }
