@@ -1,7 +1,9 @@
 .hero {
-  height: calc(100vh - 6px);
-  width: calc(100vw - 6px);
+  background: url("../Media/Backgrounds/filler_computer.jpg") no-repeat center
+    center fixed;
+  background-size: 100% 100%;
   border: 3px solid transparent;
+  border-style: solid;
   -moz-border-image: -moz-linear-gradient(
     top,
     #00aeff 0%,
@@ -21,7 +23,6 @@
     #ef798a 100%
   );
   border-image-slice: 1;
-  background: url("../Media//Backgrounds/filler_computer.jpg") no-repeat center
-    center fixed;
-  background-size: 100% 100%;
+  height: calc(100vh - 6px);
+  width: calc(100vw - 6px);
 }
