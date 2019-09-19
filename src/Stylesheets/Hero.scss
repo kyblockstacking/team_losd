@@ -38,13 +38,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
-  font-size: 6em;
+  font-size: calc(1vw + 64px);
 }
 
 .hero-header-slogan {
   color: #fff;
   margin-left: 26%;
-  font-size: 2em;
+  font-size: calc(1vw + 24px);
 }
 
 .hero-header-info {
