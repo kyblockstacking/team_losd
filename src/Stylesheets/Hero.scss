@@ -38,17 +38,23 @@
   -webkit-text-fill-color: transparent;
   color: #fff;
   font-size: calc(1vw + 64px);
-}
-
-.hero-header-slogan {
-  color: #fff;
-  margin-left: 26%;
-  font-size: calc(1vw + 24px);
+  margin: 0;
 }
 
 .hero-header-info {
   background: -webkit-linear-gradient(#613f75, #613f75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: -40px;
+  font-size: calc(1vw + 12px);
+  margin: 10px 0 0 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-header-name {
+    text-align: center;
+  }
+
+  .hero-header-info {
+    text-align: center;
+  }
 }
