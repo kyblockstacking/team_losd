@@ -4,9 +4,9 @@ import "./App.scss";
 
 // components
 // import NavBar from "./Components/NavBar";
-// import Hero from "./Components/Hero";
 
-import Hero from "./Components/Hero";
+// Home Page Comoponent
+import HomePage from "./Pages/HomePage";
 
 import NoMatch_404 from "./Components/404";
 
@@ -16,8 +16,7 @@ function App() {
       <Router>
         {/* <Route path='/' component={NavBar} /> */}
         <Switch>
-          {/* <Route exact path='/' component={Hero} /> */}
-          <Route exact path='/' component={Hero} />
+          <Route exact path='/' component={HomePage} />
           <Route component={NoMatch_404} />
         </Switch>
       </Router>

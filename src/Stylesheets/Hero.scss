@@ -1,7 +1,7 @@
 @import "./VARIABLES.scss";
 
 .hero {
-  background: url("../Media/Backgrounds/filler_computer.jpg") no-repeat center
+  background: url("../Assets/Backgrounds/filler_computer.jpg") no-repeat center
     center fixed;
   background-size: 100% 100%;
   border: 3px solid transparent;
@@ -26,7 +26,6 @@
   );
   border-image-slice: 1;
   height: calc(100vh - 6px);
-  width: calc(100vw - 6px);
 }
 
 .hero-header {
