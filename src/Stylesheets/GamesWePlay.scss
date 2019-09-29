@@ -1,16 +1,53 @@
+@import "./VARIABLES.scss";
+
 .games-we-play-container {
-  margin-top: -100px;
-  max-width: 90vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
   height: auto;
+  align-items: center;
+  margin-top: -160px;
+  // remove Material UI default padding
+  padding: 0 !important;
+  width: 100vw;
+}
+
+.games-we-play-header {
+  flex-direction: column;
+  color: $light-coral;
+  margin: 0 0 20px 0;
+  font-size: calc(1vw + 24px);
+}
+
+.game-image-card-container {
+  display: flex;
+  justify-content: center;
 }
 
 .game-image-card {
   width: 200px;
   height: 200px;
-  border: 1px solid #fff;
+  border: 3px solid transparent;
+  border-style: solid;
+  -moz-border-image: -moz-linear-gradient(
+    top,
+    $starcraft-blue 0%,
+    #613f75 50%,
+    #ef798a 100%
+  );
+  -webkit-border-image: -webkit-linear-gradient(
+    top,
+    $starcraft-blue 0%,
+    #613f75 50%,
+    #ef798a 100%
+  );
+  border-image: linear-gradient(
+    to bottom,
+    $starcraft-blue 0%,
+    #613f75 50%,
+    #ef798a 100%
+  );
+  border-image-slice: 1;
 }
 
 .game-image {

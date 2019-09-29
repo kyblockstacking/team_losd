@@ -18,18 +18,21 @@ const GamesWePlay = () => {
   return (
     <>
       <Container className='games-we-play-container'>
-        <Card className='game-image-card'>
-          <CardMedia image={Starcraft2} className='game-image' />
-        </Card>
-        <Card className='game-image-card'>
-          <CardMedia image={Diablo3} className='game-image' />
-        </Card>
-        <Card className='game-image-card'>
-          <CardMedia image={Rust} className='game-image' />
-        </Card>
-        <Card className='game-image-card'>
-          <CardMedia image={BrawlStars} className='game-image' />
-        </Card>
+        <h1 className='games-we-play-header'>SQUAD UP!</h1>
+        <Container className='game-image-card-container'>
+          <Card className='game-image-card'>
+            <CardMedia image={Starcraft2} className='game-image' />
+          </Card>
+          <Card className='game-image-card'>
+            <CardMedia image={Diablo3} className='game-image' />
+          </Card>
+          <Card className='game-image-card'>
+            <CardMedia image={Rust} className='game-image' />
+          </Card>
+          <Card className='game-image-card'>
+            <CardMedia image={BrawlStars} className='game-image' />
+          </Card>
+        </Container>
       </Container>
     </>
   );
